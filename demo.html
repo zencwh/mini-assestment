@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+    .container {
+        padding: 10px;
+        height: 245px;
+        width: 100%;
+        position: relative;
+        margin: 0 auto;
+        background-color: #C1C1C1;
+    }
+
+    .bluebox {
+        position: absolute;
+        top: 0;
+        height: 20px;
+        background-color: blue;
+        width: 20%;
+        left: 32%;
+        color: white;
+        padding: 1% 10%;
+        text-align: center;
+    }
+
+    .absolute {
+        position: absolute;
+    }
+
+    .left {
+        left: 0;
+    }
+
+    .right {
+        right: 0;
+    }
+
+    .square {
+        height: 50px;
+        width: 50px;
+        bottom: 0;
+    }
+
+    .middle {
+        left: 49%;
+    }
+
+    .left {
+        left: 0;
+    }
+
+    .right {
+        right: 0;
+    }
+
+    .red {
+        background-color: red;
+    }
+
+    .blue {
+        background-color: blue;
+    }
+    </style>
+</head>
+
+<body>
+	<div class="container">
+	        <div class="bluebox">Booking.com</div>
+	        <div class="square absolute red middle"></div>
+	        <div class="square absolute blue left"></div>
+	        <div class="square absolute blue right"></div>
+	</div>
+</body>
+</html>
